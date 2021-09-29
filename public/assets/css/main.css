@@ -1,0 +1,244 @@
+.box-align{
+   display: flex;
+    justify-content: center ;
+    
+    
+}
+.login-box{
+   margin-top: 40px;
+    background-color: rgb(6, 247, 247);
+    border: 2px solid silver;
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+input{
+    /* border: 1px solid silver; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    height: 30px    ;
+    background-color: rgb(18, 190, 190);
+    /* box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2); */
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+input::placeholder{
+    color: rgb(37, 37, 37);
+    text-align: center;
+    direction: ltr;
+    
+}
+.btn-align{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    margin-top: 10%;
+    background-color: rgb(12, 135, 218);
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .main-container {
+    background-image:linear-gradient( to top,rgba(0, 0, 0, 0.89) 0,rgba(0, 0, 0, 0.555) 60%,rgba(0,0,0,.8)),
+       url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .navbar-container {
+    background: transparent;
+  }
+  
+  .navbar-brand {
+    width: 100%;
+    padding: 25px;
+  }
+  
+  .navbar-brand > img {
+    width:167px; 
+    height:55px;
+  }
+  
+  .login-form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    width: 35%;
+    background: rgba(3, 3, 3, 0.836);
+    opacity: 1;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .form-title {
+    margin: 50px 30px 20px 60px;
+  }
+  
+  .email-address-field, .password-field, .signin-btn-container {
+    width: 65%;
+    border-radius: 4px;
+  }
+  
+  .email-address, .password, .signin {
+    width: 100%;
+    height: 55px;
+    background-color: #302e2e;
+    border: none;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 15px;
+    font-size: 1rem;
+  } 
+  
+  .email-address, .password, .signin {
+    width: 100%;
+  }
+  
+  .email-address:focus, .password:focus, .signin:focus {
+    outline: none;
+  }
+  
+  .red-signin-btn {
+    color: white;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .fields-gradual-margin {
+    margin-bottom: 10px;
+    margin: 20px 17%;
+  }
+  
+  .email-address-field > p {
+    font-size: .7rem;
+    word-break: break-all;
+    color: rgb(236, 183, 8);
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .password-field > p {
+    font-size: .7rem;
+    word-break: break-all;
+    color: rgb(236, 194, 8);
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .remember-me-help-container {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+  }
+  
+  .remember-me-container > label {
+    font-size: .9rem;
+  }
+  
+  .remember-me-container > input {
+    background-color: #2c2c2cd0;
+  }
+  
+  .need-help-text {
+    font-size: .9rem;
+    cursor: pointer;
+  }
+  
+  .need-help-text:hover {
+    text-decoration: underline;
+  }
+  
+  .signin-navigator-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin: 5% 0 15% 17%;
+  }
+  
+  .new-user-text {
+    color: #797979d0;
+    font-weight: bold;
+  }
+  
+  .signin-text:hover {
+    text-decoration: underline;
+    color: red;
+  } */
