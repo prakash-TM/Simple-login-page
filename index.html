@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,81 @@
     <title>Login page</title>
     <link rel="stylesheet" href="./public/assets/css/main.css">
 </head>
+
 <body>
     <div class="box-align">
         <div class="login-box">
             <div>
                 <h3>USER LOGIN</h3>
                 <div>
-                    <form action="./index1.html">
-                    <input type="email" id="email" placeholder=" User Email Address" required autofill>        
-              
-                    <input type="password" name="password" id="password" placeholder=" User Password" required autofill>
-                
-                    <input type="submit" value="Login">
-                </form>
+
+                    <input type="email" value="" id="email" placeholder=" User Email Address" autofill>
+                    <p class="err-msg" id="demo1"></p>
+
+                    <input type="password" value="" id="password" placeholder=" User Password" autofill>
+                    <p class="err-msg" id="demo2"></p>
+
+
+                    <button class="login-btn" onclick="myFunction1() , myFunction2() ,op()"> Login</button>
+
+                    <p class="err-msg" id="demo3"></p>
+
                 </div>
             </div>
-                
-              
+
+
         </div>
     </div>
+    <script>
+        var emailError;
+        var emailCheck;
 
+        function myFunction1() {
+            let email = document.getElementById("email").value;
 
+            if (email != "") {
+                if (email == "17ec118@kpriet.ac.in") {
+                    emailCheck = "passed";
+                } else {
+                    emailError = "Please Enter a Valid Email Id ";
+                }
 
+            } else {
+                emailError = "Please Enter a Valid Email Id ";
+            }
+            document.getElementById("demo1").innerHTML = emailError;
+        }
 
 
+        var passError;
+        var passCheck;
 
+        function myFunction2() {
 
+            let pass = document.getElementById("password").value;
 
+            if (pass != "") {
+                if (pass == "1234") {
+                    passCheck = "passed";
+                } else {
+                    passError = "Enter a Valid Password";
+                }
+            } else {
+                passError = "Enter a Valid Password";
+            }
+            document.getElementById("demo2").innerHTML = passError;
+        }
 
+        function op() {
 
+            if ((emailCheck == "passed") && (passCheck == "passed")) {
+                window.location.href = "./index1.html";
 
+            } else {
+                document.getElementById("demo3").innerHTML = "Enter a Valid Credentials!! "
+            }
+        }
+    </script>
 
 
 
@@ -44,7 +90,9 @@
 
 
 
+</body>
 
+</html>
 
 
 
@@ -106,7 +154,24 @@
 
 
 
-    <!-- <div class="main-container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="main-container">
         <div class="navbar-container">
           <div class="navbar-brand">
             <img src="./assets/netflix-logo.png" alt="">
@@ -149,5 +214,3 @@
 
 
 <script src="./public/assets/scripts/index.js"></script> -->
-</body>
-</html>
